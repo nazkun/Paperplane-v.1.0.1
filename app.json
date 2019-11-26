@@ -1,7 +1,7 @@
 {
   "name": "NAZI Paperplane",
-  "description": "[Paperplane Extended] A modular Telegram userbot running on Python 3.6+ with an sqlalchemy database.",
-  "logo": "https://i.imgur.com/ATSG4w3.png",
+  "description": "[Paperplane Extended] powerful userbot running in python 3.6+",
+  "logo": "https://telegra.ph/file/08719f255435c512a821d.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/AvinashReddy3108/PaperplaneExtended",
+  "repository": "https://github.com/nazkun/Paperplane-v.1.0.1",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-07-24",
-  "success_url": "https://t.me/PaperplaneExtended",
+  "success_url": "https://t.me/userbot_chat",
   "stack": "container",
   "env": {
     "API_KEY": {
