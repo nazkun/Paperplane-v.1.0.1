@@ -507,15 +507,15 @@ async def gspider(gspdr):
         return
 
     # If pass, inform and start gmuting
-    await gspdr.edit("`Grabs a huge, sticky duct tape!`")
+    await gspdr.edit("**processing**")
     if gmute(user.id) is False:
         await gspdr.edit(
             '`Error! User probably already gmuted.\nRe-rolls the tape.`')
     else:
         if reason:
-            await gspdr.edit(f"`Globally taped!`Reason: {reason}")
+            await gspdr.edit(f"`Gmuted successfully!` **Reason**: {reason}")
         else:
-            await gspdr.edit("`Globally taped!`")
+            await gspdr.edit("`**Globally taped**!`")
 
         if BOTLOG:
             await gspdr.client.send_message(
